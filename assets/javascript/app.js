@@ -1,9 +1,11 @@
+
 // Array of questions
 var q = ["Which US state is named on the label of a Jack Daniels bottle?<br /><br />", 
         "What soft drink began in Morison's drug store, in Waco Texas, in 1885?<br /><br />", 
         "What US state drinks the most alcohol per person?<br /><br />", 
         "Champagne is made with what variety of grapes?<br /><br />", 
         "Triple sec and lime make what cocktail?<br /><br />",]
+
 
 // Array of Answers
 var a1 = ["<button class=buttons002 onclick=q1c()>Tennesse</button>",
@@ -19,13 +21,15 @@ var a4 = ["<button class=buttons002 onclick=q1i()>North Carolina</button>",
           "<button class=buttons002 onclick=q2i()>Mountain Dew</button>"];
 
 
-
+// Array of response on Correct Answers
 var c = ["Correct!!! Jack Daniel's is a brand of Tennessee whiskey and the top selling American whiskey in the world. It is produced in Lynchburg, Tennessee", 
         "You're Right!!! In 1885, in Waco, Texas, a young pharmacist called Charles Alderton invented the soft drink <strong>Dr Pepper</strong>, a carbonated soft drink marketed as having a unique flavor. Alderton worked at a place called Morrison's Old Corner Drug Store and carbonated drinks were served at the soda fountain", 
         "Correct", 
         "Correct", 
         "Correct",];
 
+
+// Array of response on Incorrect Answers
 var i = ["Incorrect. The Right answer is Tennessee.", 
         "Incorrect. Actually, Dr. Pepper was the soft drink served at Morrison's Old Corner Drug Store.", 
         "Incorrect", 
@@ -33,11 +37,13 @@ var i = ["Incorrect. The Right answer is Tennessee.",
         "Incorrect", 
         "Incorrect",];
 
+// Score function
 var n = 0;
 n++
 var s = 0;
 s++
 
+// Questions Function
 function begin001 () {
     disappear001.innerHTML = "";
     message001.innerHTML = "";
@@ -101,7 +107,7 @@ function q2i() {
 // adding more functions questions same as q1c and q1i
 // on the last question on next001 button we add "End of Quiz"
 
-function end001 () {
+function end001() {
     disappear001.innerHTML = "End of Quiz.";
     question001.innerHTML = "";
     option001.innerHTML = "";
