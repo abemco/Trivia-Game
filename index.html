@@ -12,7 +12,11 @@
 
     <!-- Font awesome -->
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
 
 
 </head>
@@ -20,6 +24,12 @@
         <div id="frame001">
             <div id="text001">
                 <h2>PUB TRIVIA GAME</h2>
+                
+                <div class="timer jst-timeout" data-seconds-left="10">
+                    <div class="jst-seconds">Time Remaing: 00 seconds</div>
+                    <div class="jst-clearDiv"></div>
+                  </div>
+
                 <p>Question: <text id="number001">0</text></p>
                 <p>Score: <text id="score001">0</text></p>
                 

@@ -10,6 +10,7 @@ h2 {
     font-size: 50px;
     font-style: bolder;
     color: white;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 #frame001 {
@@ -43,6 +44,13 @@ h2 {
     border-radius: 10px;
     width: 150px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.buttons002, .buttons001:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+    padding: 2px; 
+    transition: box-shadow 1s;
 }
 
 #text001 {

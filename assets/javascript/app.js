@@ -1,4 +1,13 @@
 
+// $('.timer').startTimer({
+//     classNames: {
+//       seconds: 'myClass-seconds',
+//       clearDiv: 'myClass-clearDiv',
+//       timeout: 'myClass-timeout'
+//     }
+//   });
+// While coding for timer is active the app does not run
+
 // Array of questions
 var q = ["Which US state is named on the label of a Jack Daniels bottle?<br /><br />", 
         "What soft drink began in Morison's drug store, in Waco Texas, in 1885?<br /><br />", 
